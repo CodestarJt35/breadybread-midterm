@@ -1,0 +1,43 @@
+body {
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+.hero-img {
+    max-width: 200px;
+}
+
+.hero-text {
+    background-color: #bd5250;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.hero-button {
+    color: white;
+    background-color: #a4ebc6;
+    border: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+}
+
+.contact-images img {
+    max-width: 40px;
+}
+
+.hero-buttons {
+    display: flex;
+    background-color: #bd5250;
+    padding: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 2rem;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
