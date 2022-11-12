@@ -34,10 +34,169 @@ body {
 nav a {
     text-decoration: none;
     margin: 2rem;
+    color: black;
 }
 
 .navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Antonio', Arial, sans-serif;
+}
+
+/* About Page Styles */
+
+.about-main {
+    background-color: #bd5250;
+}
+
+.about-main img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.about-hero {
+    display: flex;
+}
+
+.about-content {
+    text-align: center;
+    margin: 1rem;
+}
+
+.about-description {
+    text-align: center;
+    margin: 2rem;
+}
+
+.about-chef {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Antonio', Arial, sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    color: orange;
+}
+
+h4 {
+    color: #a4ebc6;
+}
+
+.about-p {
+    font-family: 'Antonio', Arial, sans-serif;
+}
+
+.about-navigation {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5rem;
+    font-family: 'Antonio', Arial, sans-serif;
+}
+
+/* Contact Page */
+
+.contact-main {
+    background-color: #a5c7b5;
+}
+
+.contact-hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-hero img {
+    max-width: 200px;
+}
+
+.contact-content {
+    font-family: 'Antonio', sans-serif;
+    font-weight: 700;
+    animation: contact-slideIn 600ms linear;
+}
+
+.contact-navigation {
+    align-self: center;
+    font-family: 'Antonio', sans-serif;
+}
+
+.contact-navigation a {
+    margin: .5rem;
+}
+
+.contact-email, .contact-phone {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    font-family: 'Antonio', sans-serif;
+}
+
+.contact-email img, .contact-phone img {
+    max-width: 60px;
+    margin-right: 1rem;
+}
+
+.contact-layout {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem;
+}
+
+.contact-social-images img {
+    max-width: 60px;
+    margin-bottom: .5rem;
+}
+
+.contact-social-images {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contact-social {
+    justify-self: flex-end;
+}
+
+.details-p {
+    font-size: .75rem;
+}
+
+.contact-oven, .contact-social, .contact-details {
+    flex-basis: 33.3%;
+}
+
+.contact-oven img {
+    animation: contact-oven-img 600ms linear;
+}
+
+/* Animation */
+
+@keyframes contact-slideIn {
+    0% {
+        opacity: 0;
+        position: relative;
+        top: -2rem;
+    }
+    100% {
+        opacity: 1;
+        position: relative;
+        top: 0;
+    }
+}
+
+@keyframes contact-oven-img {
+    0% {
+        opacity: 0;
+        position: relative;
+        top: 2rem;
+    }
+    100% {
+        opacity: 1;
+        position: relative;
+        top: 0;
+    }
 }
